@@ -1,3 +1,33 @@
+
+
+@media (min-width: 1900px) and (max-width: 2000px) {
+
+  .box-1 {
+    left: 21.5%;
+}
+
+.box-2 {
+    left: 48.8%;
+}
+.box-3 {
+  right: 22.5%;
+}
+
+.counter-bottom-content .c-boxes {
+  bottom: 47%;
+}
+.box-5 {
+  left: 9.8%;
+}
+.box-4 {
+  left: 35.8%;
+}
+
+
+}
+
+
+
 @media (min-width: 768px) and (max-width: 992px) {
 
   #counter-part h2{
