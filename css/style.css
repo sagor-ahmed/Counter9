@@ -1,3 +1,5 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Roboto:wght@100;300;400;500;700&display=swap');
 * {
 	margin: 0;
 	padding: 0;
@@ -7,7 +9,9 @@
 html{
  scroll-behavior: smooth;
 }
-
+body{
+  font-family: "Open Sans",sans-serif;
+}
 ul,
 li {
 	list-style: none;
@@ -29,23 +33,16 @@ p {
 	margin: 0;
 	padding: 0;
 }
-
-
-
-
-
-
-
-
-#counter-part{
-	/* background: url(../images/s1.png) no-repeat center; */
-	/* background-size: cover; */
-	/* width: 100%; */
-  /* text-align: center; */
-  /* padding: 250px; */
-	
+.main-body{
+  position: relative;
 }
-
+.w-100 {
+  width: 100%!important;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
 #counter-part h2{
   font-size: 1.8rem;
   color: #830101;
@@ -62,15 +59,23 @@ p {
   top: 27%;
 }
 
+.c-boxes{
+  display: flex!important;
+  justify-content: space-around!important;
+}
+
 .box-1 {
   left: 21%;
 }
+
 .box-2 {
   left: 48.5%;
 }
+
 .box-3 {
   right: 22%;
 }
+
 .counter-bottom-content .c-boxes {
   position: absolute;
   bottom: 46%;

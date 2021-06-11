@@ -235,6 +235,11 @@
   .box-3 {
       right: 21%;
   }
+  .counter-top-content .c-boxes {
+    top: 25.4%!important;
+}.counter-bottom-content .c-boxes {
+  bottom: 46.8%!important;
+}
 
 }
 
