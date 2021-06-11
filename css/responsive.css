@@ -1,0 +1,98 @@
+@media (min-width: 768px) and (max-width: 992px) {
+
+  #counter-part h2{
+      font-size: 1.3rem;
+      color: #830101;
+      font-weight: bold;
+    }
+  
+    .counter-top-content .c-boxes {
+      top: 26%;
+    }
+    .counter-bottom-content .c-boxes {
+      bottom: 46%;
+    }
+    .box-5 {
+      left: 8.5%;
+  }
+  .box-6 {
+      right: 34.5%;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px){
+  #counter-part h2{
+    font-size: 1rem;
+    color: #830101;
+    font-weight: bold;
+  }
+  #counter-part h3{
+    font-size: .8rem;
+    color: #830101;
+    font-weight: bold;
+  }
+}
+@media (max-width: 575px) {
+  #counter-part h2{
+      font-size: 0.8rem;
+      color: #830101;
+      font-weight: bold;
+    }
+   
+    .counter-top-content .c-boxes {
+      top: 26%;
+    }
+}
+@media (max-width: 450px) {
+  #counter-part h2{
+      font-size: 0.6rem;
+      color: #830101;
+      font-weight: bold;
+    }
+ 
+    .counter-top-content .c-boxes {
+      top: 25%;
+    }
+    .box-1 {
+      left: 20%;
+  }
+  
+  .box-2 {
+      left: 47.7%;
+  }
+  
+  .box-3 {
+      right: 21%;
+  }
+  
+}
+
+@media (max-width: 400px) {
+  #counter-part h2{
+      font-size: 0.5rem;
+      color: #830101;
+      font-weight: bold;
+    }
+   
+    .counter-top-content .c-boxes {
+      top: 26%;
+    }
+} 
+
+
+@media (max-width: 350px) {
+  #counter-part h2{
+      font-size: 0.5rem;
+      color: #830101;
+      font-weight: bold;
+    }
+} 
+
+
+
+
+
+
+
+
+
+
